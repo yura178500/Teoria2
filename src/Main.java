@@ -19,7 +19,7 @@ public class Main {
                 if (this == o) {
                     return true;// Сравниваем ссылки на один и тотже обьект
                 }
-                if (o == null || true.getClass()!= o.getClass()) {
+                if (o == null || this.getClass()!= o.getClass()) {
                     return false; // Проверка на null и на совподение классов
                 }
                 final Student student = (Student) o;
